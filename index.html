@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="cont.js"></script>
     <!-- css file -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -51,7 +52,10 @@
             <h2 class="name_heading">Abiodun Yomi</h2>
             <h2 class="skills_heading">I'm a <span class="textTyper">Website Developer</span></h2>
 
-            <a href="#" class="hero_btn">Contact Me</a>
+            <div class="hero_btn">
+                <script>document.write('<a id="contactLink" href="ma'+'il'+'to:'+contactAddress+'">Contact Me</a>');</script>
+                <noscript><a id="contactLink" href="#">Contact Me</a></noscript>
+            </div>
         </div>
     </section>
 
