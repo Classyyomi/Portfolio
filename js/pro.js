@@ -1,31 +1,3 @@
-// Auto Text Changer Functionality
-
-const textTyper = document.querySelector('.textTyper');
-
-const autoTextChanger = () => {
-
-    setTimeout(() => {
-        textTyper.innerHTML = "Website Developer"; 
-    }, 0);
-
-    setTimeout(() => {
-        textTyper.innerHTML = "Website Designer";
-    }, 5000);
-
-    setTimeout(() => {
-        textTyper.innerHTML = "App Developer"; 
-    }, 10000);
-
-    setTimeout(() => {
-        textTyper.innerHTML = "Graphic Designer";
-    }, 15000);
-
-}
-
-autoTextChanger();
-setInterval(autoTextChanger, 20000);
-
-
 // Theme Changing Functionality
 const theme_btn = document.querySelector('.theme_btn');
 const themeBtnToggle = document.querySelector('.themeBtnToggle');
